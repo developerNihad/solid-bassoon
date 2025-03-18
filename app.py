@@ -9,7 +9,7 @@ load_dotenv()
 app = Flask(__name__)
 
 CORS(app, resources = {r"/api/news": {
-    "origins": ["https://bakueduaz.github.io"],
+    "origins": ["https://developernihad.github.io"],
     "methods": ["GET"]
 }})
 
